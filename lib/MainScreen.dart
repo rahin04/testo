@@ -80,7 +80,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
                     Text('Temperature: ${weatherInfo.temperature}°C'),
                     Text('Condition: ${weatherInfo.condition}'),
                     Text('Humidity: ${weatherInfo.humidity}%'),
-                    Text('Wind Speed: ${weatherInfo.windSpeed} km/h'),
+                    Text('Wind Speed: ${weatherInfo.windSpeed} m/s'),
                   ],
                 ),
               ),
